@@ -3,7 +3,7 @@
 
 "Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to make simple calculations and read a random math-related quote. 
 
-![screenshot](./public/Screenshot%20from%202022-10-11%2016-34-42.png)
+![screenshot](./public/Screenshot%20from%202022-10-25%2016-16-23.png)
 
 ## :red_circle: Live Demo
 You can view my hosted website in the link shown below.
@@ -32,10 +32,9 @@ To get a local copy up and running follow these simple steps:
    - Also install a code editor.
    - A web browser to view the output.
 
-## Setup
+## Setup and test
    - To clone my repository run this command `https://github.com/juaryimami/math-magician.git`  
 
-## Run tests
    For tracking linters errors and also to run web pack manually locally you need to follow these steps:
 
    - After cloning the project you need to run this command
