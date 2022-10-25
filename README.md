@@ -3,7 +3,7 @@
 
 "Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to make simple calculations and read a random math-related quote. 
 
-![screenshot](./public/Screenshot%20from%202022-10-11%2016-34-42.png)
+![screenshot](./public/Screenshot%20from%202022-10-25%2016-16-23.png)
 
 ## :red_circle: Live Demo
 You can view my hosted website in the link shown below.
