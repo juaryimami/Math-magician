@@ -32,10 +32,9 @@ To get a local copy up and running follow these simple steps:
    - Also install a code editor.
    - A web browser to view the output.
 
-## Setup
+## Setup and test
    - To clone my repository run this command `https://github.com/juaryimami/math-magician.git`  
 
-## Run tests
    For tracking linters errors and also to run web pack manually locally you need to follow these steps:
 
    - After cloning the project you need to run this command
