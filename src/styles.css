@@ -1,0 +1,56 @@
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.main {
+  background: navy;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: calc(290px + 10vw);
+  height: calc(330px + 5vh);
+  margin: auto;
+}
+
+.display {
+  background: #858693;
+  height: 60px;
+  padding: 1rem;
+  text-align: right;
+}
+
+.text {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 32px;
+  color: #fff;
+}
+
+.container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.orange {
+  background: #ec8f3e;
+}
+
+.white_0 {
+  flex-basis: 50%;
+  height: calc(60px + 1.25vh);
+}
+
+button {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 32px;
+  flex-basis: 25%;
+  height: calc(60px + 1.25vh);
+}
