@@ -1,35 +1,58 @@
 import React from 'react';
-import Button from './Button';
+import PropTypes from 'prop-types';
+import { Button } from './Button';
 
-class ButtonsTable extends React.Component {
+// eslint-disable-next-line import/prefer-default-export
+export class MainContainer extends React.Component {
   constructor(props) {
     super(props);
     this.state = {};
   }
 
   render() {
-    const signs = ['AC', '+/-', '%', '÷', 7, 8, 9, 'x', 4, 5, 6, '-', 1, 2, 3, '+', 0, '.', '='];
-    const rows = [];
-
-    for (let i = 1; i <= signs.length; i += 1) {
-      if (i % 4 === 0 || i === 19) {
-        rows.push(
-          <Button color="orange" data={signs[i - 1]} key={i - 1} />,
-        );
-      } else if (i === 17) {
-        rows.push(
-          <Button color="white_0" data={signs[i - 1]} key={i - 1} />,
-        );
-      } else {
-        rows.push(
-          <Button data={signs[i - 1]} key={i - 1} />,
-        );
-      }
-    }
+    const { event, keyDown } = this.props;
     return (
-      <div className="container">{rows}</div>
+      <div role="button" className="container" onClick={event} onKeyDown={keyDown} tabIndex={0}>
+        <div className="row">
+          <Button data="AC" />
+          <Button data="+/-" />
+          <Button data="%" />
+          <Button color="orange" data="÷" />
+        </div>
+        <div className="row">
+          <Button data="7" />
+          <Button data="8" />
+          <Button data="9" />
+          <Button color="orange" data="x" />
+        </div>
+        <div className="row">
+          <Button data="4" />
+          <Button data="5" />
+          <Button data="6" />
+          <Button color="orange" data="-" />
+        </div>
+        <div className="row">
+          <Button data="1" />
+          <Button data="2" />
+          <Button data="3" />
+          <Button color="orange" data="+" />
+        </div>
+        <div className="row">
+          <Button color="white_0" data="0" />
+          <Button data="." />
+          <Button color="orange" data="=" />
+        </div>
+      </div>
     );
   }
 }
 
-export default ButtonsTable;
+MainContainer.propTypes = {
+  event: PropTypes.func,
+  keyDown: PropTypes.func,
+};
+
+MainContainer.defaultProps = {
+  event: () => -1,
+  keyDown: () => -1,
+};
