@@ -1,7 +1,7 @@
 import React from 'react';
-import { MainContainer } from './ButtonsTable';
-import { Display } from './Display';
-import { calculate } from '../logic/calculate';
+import MainContainer from './ButtonsTable';
+import Display from './Display';
+import calculate from '../logic/calculate';
 
 class Calculator extends React.Component {
   constructor(props) {

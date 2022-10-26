@@ -1,7 +1,6 @@
 import Big from 'big.js';
 
-// eslint-disable-next-line import/prefer-default-export
-export function operate(numberOne, numberTwo, operation) {
+export default function operate(numberOne, numberTwo, operation) {
   const one = Big(numberOne);
   const two = Big(numberTwo);
   if (operation === '+') {

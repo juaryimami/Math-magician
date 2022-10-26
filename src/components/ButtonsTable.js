@@ -1,9 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Button } from './Button';
+import Button from './Button';
 
-// eslint-disable-next-line import/prefer-default-export
-export class MainContainer extends React.Component {
+export default class MainContainer extends React.Component {
   constructor(props) {
     super(props);
     this.state = {};

@@ -1,8 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-// eslint-disable-next-line import/prefer-default-export
-export class Button extends React.Component {
+export default class Button extends React.Component {
   constructor(props) {
     super(props);
     this.state = {};
