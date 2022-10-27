@@ -1,8 +1,7 @@
 import React from 'react';
-// eslint-disable-next-line import/no-extraneous-dependencies
 import PropTypes from 'prop-types';
 
-class Button extends React.Component {
+export default class Button extends React.Component {
   constructor(props) {
     super(props);
     this.state = {};
@@ -11,14 +10,14 @@ class Button extends React.Component {
   render() {
     const { color, data } = this.props;
     return (
-      <button type="button" className={color}>{data}</button>
+      <button type="button" className={color} data-name={data}>{data}</button>
     );
   }
 }
 
 Button.defaultProps = {
   color: 'white',
-  data: '',
+  data: '0',
 };
 
 Button.propTypes = {
@@ -28,5 +27,3 @@ Button.propTypes = {
     PropTypes.number,
   ]),
 };
-
-export default Button;
