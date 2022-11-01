@@ -1,6 +1,34 @@
+/* stylelint-disable csstree/validator */
+
 #root {
   width: 100%;
   min-height: 100vh;
+}
+
+.home_container {
+  padding: calc(1rem + 0.8vw) calc(1.5rem + 2vw);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.home_title {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.home_paragraph {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.parent_calc {
+  padding: calc(1rem + 0.8vw) calc(1.5rem + 2vw);
+  display: flex;
+  flex-direction: row;
+  align-items: top;
 }
 
 .calculator-container {
@@ -10,6 +38,47 @@
   align-items: center;
   width: 100%;
   height: 100vh;
+}
+
+.calc_quote {
+  padding: calc(1rem + 0.8vw) calc(1.5rem + 2vw);
+  display: flexbox;
+  flex-direction: column;
+  align-items: center;
+}
+
+.quote_paraph {
+  font-size: 18;
+  font-weight: 500;
+  font-style: italic;
+  line-height: 18px;
+}
+
+.logo h1 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.navBar {
+  padding: calc(1rem + 0.8vw) calc(1.5rem + 2vw);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menuNav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.navelink {
+  display: flex;
+  display: block;
+  row-gap: 2px;
 }
 
 .input {
