@@ -33,7 +33,7 @@ const Calculator = () => {
         </Route>
         <Route path="/calculator">
           <div className="parent_calc">
-            <p>Hi there....</p>
+            <p>Hi there..................................</p>
             <div className="calculator-container">
               <div className="hero-container">
                 <Display input={status.total} next={status.next} operation={status.operation} />
