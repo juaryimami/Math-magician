@@ -1,6 +1,6 @@
-const home = () => (
+const Home = () => (
   <div className="home_container">
-    <h2 className="home_title"> welcome to our page</h2>
+    <h2 data-testid="home-1" className="home_title"> welcome to our page</h2>
     <p className="home_paragraph">
       {' '}
       fsols skfjslfjs lsjslj sjl sljfls lsfjljsljsljslj lsjfls lfjslfj jslj jslj
@@ -10,4 +10,4 @@ const home = () => (
   </div>
 );
 
-export default home;
+export default Home;
