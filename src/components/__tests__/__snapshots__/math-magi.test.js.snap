@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders home page correctly 1`] = `
+<div
+  className="home_container"
+>
+  <h2
+    className="home_title"
+    data-testid="home-1"
+  >
+     welcome to our page
+  </h2>
+  <p
+    className="home_paragraph"
+  >
+     
+    fsols skfjslfjs lsjslj sjl sljfls lsfjljsljsljslj lsjfls lfjslfj jslj jslj lsjlsljls sjsljs sj sj sljsljslj jsfjslj sjfsl sjljsl
+     
+  </p>
+</div>
+`;

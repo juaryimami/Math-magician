@@ -4,7 +4,7 @@ import MainContainer from './ButtonsTable';
 import Display from './Display';
 import calculate from '../logic/calculate';
 import Navbar from './Navebar';
-import home from './Home';
+import Home from './Home';
 import Quote from './Qoute';
 
 const Calculator = () => {
@@ -29,11 +29,11 @@ const Calculator = () => {
       <Navbar />
       <Switch>
         <Route exact path="/">
-          {home}
+          {Home}
         </Route>
         <Route path="/calculator">
           <div className="parent_calc">
-            <p>Hi there....</p>
+            <p>Hi there..................................</p>
             <div className="calculator-container">
               <div className="hero-container">
                 <Display input={status.total} next={status.next} operation={status.operation} />
