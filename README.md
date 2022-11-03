@@ -7,7 +7,7 @@
 
 ## :red_circle: Live Demo
 You can view my hosted website in the link shown below.
-GitHub: [@JUPAC]()
+GitHub: [@JUPAC](https://silver-shortbread-797321.netlify.app/)
 
 ## :hammer: Built With
 
